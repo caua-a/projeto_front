@@ -1,0 +1,26 @@
+.speaker-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-
+    background-color: rgb(30, 40, 49);
+    width: 20%;
+    height: 60%;   
+}
+.speaker-card img{
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+    border-radius: 10%;
+}
+.speaker-card h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.speaker-card p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
