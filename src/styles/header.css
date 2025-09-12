@@ -50,7 +50,7 @@
 }
 
 .header-menu li:hover {
-    background-color: rgb(255, 255, 255);
+    background-color:rgb(19, 200, 245);
     color: #070101;
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.315);
 
@@ -89,6 +89,6 @@
 }
 
 .header-search input:focus {
-    border-color: rgb(130, 0, 170);
+    border-color: rgb(19, 200, 245);
     box-shadow: 0 0 8px rgba(255, 255, 255, 0.4);
 }
