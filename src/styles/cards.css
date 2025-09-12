@@ -3,10 +3,12 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    font-
+    border-radius: 10px;
+    line-height: 50px;
     background-color: rgb(30, 40, 49);
     width: 20%;
     height: 60%;   
+    box-shadow: 0px 0px 8px rgba(88, 169, 240, 0.596) ;
 }
 .speaker-card img{
     width: 300px;
@@ -18,9 +20,12 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     margin-top: 30px;
+    margin-bottom: 10px;
+    text-shadow: 0px 0px 5px black;
 }
 
 .speaker-card p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+    color: aliceblue;
 }
