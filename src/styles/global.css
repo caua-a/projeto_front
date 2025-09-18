@@ -34,17 +34,17 @@ html {
 }
 .conteudo-esquerdo h2 {
   margin-top: 30vh;
-  margin-left: 300px;
+  margin-left: 200px;
 }
 .conteudo-esquerdo p {
   margin-top: 20px;
-  margin-left: 300px;
+  margin-left: 200px;
   font-size: 25px;
 }
 
 .content-inicio li {
   margin-top: 70px;
-  margin-left: 300px;
+  margin-left: 200px;
   text-align: center;
   width: 250px;
   height: 50px;
@@ -70,5 +70,5 @@ html {
   height: 100%;
   object-fit: cover;
   z-index: -1;
-  opacity: 5%;
+  opacity: 20%;
 }
