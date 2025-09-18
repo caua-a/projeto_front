@@ -1,136 +1,133 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Display Flex e Position</title>
-    <!-- Estilo padrão da página -->
-    <link rel="stylesheet" href="./src/styles/reset.css" />
 
-    <!-- Estilos para os elementos da página -->
-    <link rel="stylesheet" href="./src/styles/global.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Display Flex e Position</title>
+  <!-- Estilo padrão da página -->
+  <link rel="stylesheet" href="./src/styles/reset.css" />
 
-  <body>
-<header class="header">
+  <!-- Estilos para os elementos da página -->
+  <link rel="stylesheet" href="./src/styles/global.css" />
+</head>
+
+<body>
+  <header class="header">
     <div class="header-logo">
-        <img src="./src/assets/icons/logo.svg" alt="logo site" />
+      <img src="./src/assets/icons/logo.svg" alt="logo site" />
     </div>
     <nav class="header-menu">
-        <ul>
-            <a href="#content-inicio">
-                <li>Início</li>
-            </a>
-            <a href="#content-nosso_time">
-                <li>Nosso Time</li>
-            </a>
-            
-            <a href="#content-faq">
-                <li>FAQ</li>
-            </a>
-            <a href="#content-contato">
-                <li>Contato</li>
-            </a>
-        </ul>
-      </nav>
-      <div class="header-login">
-          <div class="header-icon">
-              <img
-            src="./src/assets/img/alessandra-ramalho.png  "
-            alt="icone perfil"
-            />
-        </div>
-        <div class="header-search">
-          <input type="text" placeholder="Pesquise aqui" />
-        </div>
+      <ul>
+        <a href="#content-inicio">
+          <li>Início</li>
+        </a>
+        <a href="#content-nosso_time">
+          <li>Nosso Time</li>
+        </a>
+
+        <a href="#content-faq">
+          <li>FAQ</li>
+        </a>
+        <a href="#content-contato">
+          <li>Contato</li>
+        </a>
+      </ul>
+    </nav>
+    <div class="header-login">
+      <div class="header-icon">
+        <img src="./src/assets/img/alessandra-ramalho.png  " alt="icone perfil" />
+      </div>
+      <div class="header-search">
+        <input type="text" placeholder="Pesquise aqui" />
+      </div>
     </div>
-</header>
+  </header>
 
-<main>
+  <main>
 
 
-<div class="whatsapp-button"></div>
-<section class="content-inicio" id="content-inicio">
-         <div class="conteudo-esquerdo">
-            <h2>Seu projeto merece código <br>de alto nível</h2>
-            <p>Conectamos você aos desenvolvedores certos para acelerar <br> seu projeto com qualidade e eficiência.</p>
-            <a href="#content-nosso_time">
-            <li>Nos conheça</li>
-            </a>
-        </div>
-        
-    <video autoplay muted loop id="bg-video">
-    <source src="src/assets/videos/meuvideo.mp4" type="video/mp4">
-    </video>
-    
+    <div class="whatsapp-button"></div>
+    <section class="content-inicio" id="content-inicio">
+      <div class="conteudo-esquerdo">
+        <h2>Seu projeto merece código <br>de alto nível</h2>
+        <p>Conectamos você aos desenvolvedores certos para acelerar <br> seu projeto com qualidade e eficiência.</p>
+        <a href="#content-nosso_time">
+          <li>Nos conheça</li>
+        </a>
+      </div>
 
-   
-</section>
+      <video autoplay muted loop id="bg-video">
+        <source src="src/assets/videos/meuvideo.mp4" type="video/mp4">
+      </video>
 
-<section class="content-nosso_time" id="content-nosso_time">
-    <figure class="speaker-card">
-        <img
-        src="src/assets/img/yuta-itadori.png"
-        alt="Yuta Itadori, especialista em Machine Learning"
-        />
+
+
+    </section>
+
+    <section class="content-nosso_time" id="content-nosso_time">
+      <figure class="speaker-card">
+        <img src="src/assets/img/yuta-itadori.png" alt="Yuta Itadori, especialista em Machine Learning" />
         <figcaption>
-            <h3>Yuta Itadori</h3>
-            <p>Especialista em Machine Learning</p>
-            <p>CEO da 'Empresa'</p>
+          <h3>Yuta Itadori</h3>
+          <p>Especialista em Machine Learning</p>
+          <p>CEO da 'Empresa'</p>
         </figcaption>
-    </figure>
-    <figure class="speaker-card">
-          <img
-          src="src/assets/img/carlos-emanuel.png"
-          alt="Carlos Emanuel, especialista em Back End"
-          />
-          <figcaption>
-              <h3>Carlos Emanuel</h3>
-            <p>Developer Back End</p>
-            <p>Desenvolvedor Back-End</p>
-          </figcaption>
-        </figure>
-        <figure class="speaker-card">
-          <img
-            src="src/assets/img/pedro-spears.png"
-            alt="Pedro Spears, Designer Gráfico"
-          />
-          <figcaption>
-            <h3>Pedro Spears</h3>
-            <p>Designer Gráfico</p>
-            <p>Designer Mestre</p>
-          </figcaption>
-        </figure>
-        <figure class="speaker-card">
-          <img
-            src="src/assets/img/lara-cicone.png"
-            alt="Lara Cicone, Especialista em Front End"
-          />
-          <figcaption>
-            <h3>Lara Cicone</h3>
-            <p>Developer Front-End</p>
-            <p>Desenvolvedora Web</p>
-          </figcaption>
-        </figure>
-      </section>
+      </figure>
+      <figure class="speaker-card">
+        <img src="src/assets/img/carlos-emanuel.png" alt="Carlos Emanuel, especialista em Back End" />
+        <figcaption>
+          <h3>Carlos Emanuel</h3>
+          <p>Developer Back End</p>
+          <p>Desenvolvedor Back-End</p>
+        </figcaption>
+      </figure>
+      <figure class="speaker-card">
+        <img src="src/assets/img/pedro-spears.png" alt="Pedro Spears, Designer Gráfico" />
+        <figcaption>
+          <h3>Pedro Spears</h3>
+          <p>Designer Gráfico</p>
+          <p>Designer Mestre</p>
+        </figcaption>
+      </figure>
+      <figure class="speaker-card">
+        <img src="src/assets/img/lara-cicone.png" alt="Lara Cicone, Especialista em Front End" />
+        <figcaption>
+          <h3>Lara Cicone</h3>
+          <p>Developer Front-End</p>
+          <p>Desenvolvedora Web</p>
+        </figcaption>
+      </figure>
+    </section>
 
-      <section class="content-cursos" id="content-cursos">cursos</section>
+    <section class="content-cursos" id="content-cursos">cursos</section>
 
-      <section class="content-faq" id="content-faq">FAQ</section>
+    <section class="content-faq" id="content-faq">FAQ</section>
 
-      <section class="content-contato" id="content-contato">contato</section>
-    </main>
-    <footer>
-      <div class="conteudo-esquerda-footer">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-      </div>
-      <div class="conteudo-central-footer">
-        <img src="src/assets/icons/logo.svg" alt="Logo Empresa">
+    <section class="content-contato" id="content-contato">contato</section>
+  </main>
+  <footer>
+    <div class="conteudo-esquerda-footer">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class="conteudo-central-footer">
+      <img src="src/assets/icons/logo.svg" alt="Logo Empresa">
 
-      </div>
-      <div class="conteudo-direita-footer">
-      alo
-      </div>
-    </footer>
-  </body>
+    </div>
+    <div class="conteudo-direita-footer">
+      <ul>
+        <li>
+          <a href="#"><img src="src/assets/icons/facebook 1.svg" alt=""></a>
+        </li>
+        <li>
+          <a href="#"><img src="src/assets/icons/instagram 1.svg" alt=""></a>
+        </li>
+        <li>
+          <a href="#"><img src="src/assets/icons/twitter 1.svg" alt=""></a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
 </html>
